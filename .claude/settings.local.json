@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip config:*)",
+      "Bash(where uv:*)",
+      "Bash(uv venv:*)",
+      "Bash(source .venv/Scripts/activate)",
+      "Bash(uv pip:*)",
+      "Bash(curl -s http://127.0.0.1:8001/healthz)",
+      "Bash(.venv/Scripts/python.exe -c \"from app.main import app; print\\(''Import OK''\\)\")",
+      "Bash(mysql -uagent -pagent -e \"SELECT 1;\")",
+      "Bash(docker port:*)",
+      "Bash(mysql -h127.0.0.1 -P3307 -uagent -pagent -e \"SHOW DATABASES;\")",
+      "Bash(.venv/Scripts/python.exe -m pip install python-dotenv)",
+      "Bash(find c:UsersAdminDesktoplittleDeskAgentcoderesearch_copilot -type f \\\\\\(-name *.py -o -name *.sh \\\\\\) ! -path */.venv/* ! -path */node_modules/*)"
+    ]
+  }
+}
