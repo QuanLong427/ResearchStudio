@@ -12,7 +12,8 @@
       "Bash(docker port:*)",
       "Bash(mysql -h127.0.0.1 -P3307 -uagent -pagent -e \"SHOW DATABASES;\")",
       "Bash(.venv/Scripts/python.exe -m pip install python-dotenv)",
-      "Bash(find c:UsersAdminDesktoplittleDeskAgentcoderesearch_copilot -type f \\\\\\(-name *.py -o -name *.sh \\\\\\) ! -path */.venv/* ! -path */node_modules/*)"
+      "Bash(find c:UsersAdminDesktoplittleDeskAgentcoderesearch_copilot -type f \\\\\\(-name *.py -o -name *.sh \\\\\\) ! -path */.venv/* ! -path */node_modules/*)",
+      "Bash(openspec propose:*)"
     ]
   }
 }
